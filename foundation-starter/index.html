@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Foundation Intro</title>
 	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="off-canvas-wrapper">
@@ -31,8 +32,15 @@
             <div class="grid-container">
                 <!-- `grid-x` represents a row -->
                 <div class="grid-x grid-padding-x">
-                    <div class="cell small-6 large-4" style="background-color: #ADD8E6;">Small 6 / Large 4</div>
-                    <div class="cell small-6 large-8" style="background-color: #90EE90;">Small 6 / Large 8</div>
+                    <div class="cell small-6 large-4" style="background-color: #ADD8E6;">
+                        <p id="ProjectsLink"><a href="projects.html">My Projects</a></p>
+                    </div>
+                    <div class="cell small-6 large-4" style="background-color: #90EE90;">
+                        <p id="ResumeLink"><a href="resume.html">My Resume</a></p>
+                    </div>
+                    <div class="cell small-6 large-4" style="background-color: #909eee;">
+                        <p id="FunLink"><a href="fun.html">Fun Stuff</a></p>
+                    </div>
                 </div>
                 
                 <div class="grid-x grid-padding-x">
@@ -47,6 +55,15 @@
                     <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
                 </div>
             </div>
+        </div>
+        <div>
+            <h3>
+                About me
+            </h3>
+            <p id="AboutMe">
+                My name is Ian Schulke. I am from Eagan, Minnesota, and I am majoring in <br>computer science at University of St. Thomas.
+                After college, I am planning on <br>getting a job in software development. 
+            </p>
         </div>
     </div>
 
