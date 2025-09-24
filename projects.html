@@ -7,12 +7,35 @@
 	<link rel="stylesheet" href="foundation.css">
     <link rel="stylesheet" href="style.css">
 </head>
-Projects will be displayed here
+<div class="off-canvas-content" data-off-canvas-content>
+    <!-- main content within a `grid-container` -->
+    <div class="grid-container">
+        <!-- `grid-x` represents a row -->
+        <div class="grid-x grid-padding-x">
+            <div class="cell large-auto" style="background-color: #485c63;">
+                <div id="HomePageLink"><a href="index.html">Home Page</a></div>
+            </div>
+            <div class="cell large-auto" style="background-color: #ADD8E6;">
+                <div id="ProjectsLink"><a href="projects.html">My Projects</a></div>
+            </div>
+            <div class="cell large-auto" style="background-color: #90EE90;">
+                <div id="ResumeLink"><a href="resume.html">My Resume</a></div>
+            </div>
+            <div class="cell large-auto" style="background-color: #909eee;">
+                <div id="FunLink"><a href="fun.html">Fun Stuff</a></div>
+            </div>
+        </div>
+        
+        <div class="grid-x grid-padding-x">
+            <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+        </div>
+    </div>
+</div>
+
 
 <!-- Minimum of 3 projects that you have worked on in other classes / internships
 Describe the purpose of each project and the work you did
 Include at least one photo for each project -->
-<p id="Link"><a href="index.html">Back to home page</a></p>
 <h1>Projects</h1>
 
 <h3>
@@ -41,3 +64,9 @@ Include at least one photo for each project -->
     displayed as well as the answers they got correct. 
 </p>
 </html>
+<script src="jquery.js"></script>
+<script src="what-input.js"></script>
+<script src="foundation.js"></script>
+<script type="application/javascript">
+    $(document).foundation();
+</script>

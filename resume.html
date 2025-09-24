@@ -7,16 +7,100 @@
 	<link rel="stylesheet" href="foundation.css">
     <link rel="stylesheet" href="style.css">
 </head>
-Resume will be displayed here
-<p id="Link"><a href="index.html">Back to home page</a></p>
+<div class="off-canvas-content" data-off-canvas-content>
+    <!-- main content within a `grid-container` -->
+    <div class="grid-container">
+        <!-- `grid-x` represents a row -->
+        <div class="grid-x grid-padding-x">
+            <div class="cell large-auto" style="background-color: #485c63;">
+                <div id="HomePageLink"><a href="index.html">Home Page</a></div>
+            </div>
+            <div class="cell large-auto" style="background-color: #ADD8E6;">
+                <div id="ProjectsLink"><a href="projects.html">My Projects</a></div>
+            </div>
+            <div class="cell large-auto" style="background-color: #90EE90;">
+                <div id="ResumeLink"><a href="resume.html">My Resume</a></div>
+            </div>
+            <div class="cell large-auto" style="background-color: #909eee;">
+                <div id="FunLink"><a href="fun.html">Fun Stuff</a></div>
+            </div>
+        </div>
+        
+        <div class="grid-x grid-padding-x">
+            <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+        </div>
+    </div>
+</div>
 
-<h3>
-    For education section,
-    <p id="Link"><a href="https://www.stthomas.edu/">St thomas</a></p>
-</h3>
 <h1>
     Ian Schulke's Resume
 </h1>
 <h4>
-    Hi
+    Objective
 </h4>
+<p>
+    To obtain an internship in software engineering where I can develop new skills, advance my knowledge, and help customers.
+</p>
+<h4>
+    Education
+</h4>
+<p>
+EASTVIEW HIGH SCHOOL - Apple Valley, MN
+September 2020 – June 2024
+- 3.6 GPA, Honors and Advanced Placement in Math, Science, Economics, and Computer Science<br>
+
+- UNIVERSITY OF ST THOMAS – St. Paul, MN<br> 
+- Started September 2024, Class of 2028<br>
+- Major: Computer Science<br>
+
+    <div id="Link"><a href="https://www.stthomas.edu/">St thomas</a></div>
+</p>
+<h4>
+    Accomplishments
+</h4>
+<p>
+    - Academic Letter Recipient, STEM Scholar,  AP Student - Eastview High School<br>
+    - Presidential Award - Falcon Ridge Middle School<br>
+    - Dean’s List - University of St. Thomas<br>
+    - Black Belt in Taekwondo<br>
+    - Varsity Athlete<br>    
+</p>
+<h4>
+    Activities
+</h4>
+<p>
+    - Track, FRMS and EVHS (2017-2024)<br>
+    - Piano (2012-2024)<br>
+    - Basketball, EVAA, EVHS Intramural, St. Thomas Intramural (2016-Present)<br>
+    - Baseball, EVAA and EVHS (2016-2021)<br>
+    - Volunteering, Feed My Starving Children, Yard Clean Up, Music Fundraisers<br>    
+</p>
+<h4>
+    Experience
+</h4>
+<p>
+    Life Time - Chanhassen, MN
+    June 2024 – Present
+    - Intern - LT Technology with a focus on software engineering<br>
+    - Created web interface for LifeSpa business partners to re-sync customer data with their account, which involved full stack programming<br>
+    - Created a web page for a celebration of the team hitting 1 million digital subscribers<br>          
+</p>
+<h4>
+    Skills
+</h4>
+<p>
+    - Accountability<br>                      
+    - Time Management<br>
+    - Coding languages: C#, Python, Java, JavaScript, HTML, and CSS<br>
+    - Microsoft Word, Excel, PowerPoint<br>
+    - Jira<br>              
+</p>
+
+
+
+<script src="jquery.js"></script>
+<script src="what-input.js"></script>
+<script src="foundation.js"></script>
+<script type="application/javascript">
+    $(document).foundation();
+</script>
