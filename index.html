@@ -36,18 +36,14 @@
                         Home page
                     </a>
                     <a href="projects.html" onclick="selectProjectsTab()" id="ProjectsTab" class="cell large-auto">
-                        My Projects
+                        Projects
                     </a>
                     <a href="resume.html" onclick="selectResumeTab()" id="ResumeTab" class="cell large-auto">
-                        My Resume
+                        Resume
                     </a>
                     <a href="fun.html" onclick="selectFunTab()" id="FunTab" class="cell large-auto">
                         Fun Stuff
                     </a>           
-                </div>
-                
-                <div class="grid-x grid-padding-x">
-                    <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
                 </div>
             </div>
         </div>
@@ -58,15 +54,15 @@
             <h3>
                 About me
             </h3>
-            <div id="AboutMeBox">
+            <div class="AboutMeBox">
                 <p id="AboutMe">
                     My name is Ian Schulke. I am from Eagan, Minnesota, and I am majoring in <br>computer science at University of St. Thomas.
                     After college, I am planning on <br>getting a job in software development. 
                 </p>
+                <img src="AboutMePicture.jpg" id="AboutMePic">
             </div>
         </div>
     </div>
-    <button onclick="changeDivColor()">Change to Gold</button>
 
     <!-- include before closing <body> tag -->
     <script src="jquery.js"></script>

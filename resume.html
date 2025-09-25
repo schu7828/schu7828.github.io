@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="foundation.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <div class="off-canvas-content" data-off-canvas-content>
     <!-- main content within a `grid-container` -->
     <div class="grid-container">
@@ -16,23 +17,19 @@
                 Home page
             </a>
             <a href="projects.html" onclick="selectProjectsTab()" id="ProjectsTab" class="cell large-auto">
-                My Projects
+                Projects
             </a>
             <a href="resume.html" onclick="selectResumeTab()" id="ResumeTab" class="cell large-auto">
-                My Resume
+                Resume
             </a>
             <a href="fun.html" onclick="selectFunTab()" id="FunTab" class="cell large-auto">
                 Fun Stuff
-            </a>           
-        </div>
-        
-        <div class="grid-x grid-padding-x">
-            <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+            </a>        
         </div>
     </div>
 </div>
-
-<h1>
+<div id="ResumeBody">
+<h1 id="ResumeTitle">
     Ian Schulke's Resume
 </h1>
 <h4>
@@ -45,21 +42,20 @@
     Education
 </h4>
 <p>
-EASTVIEW HIGH SCHOOL - Apple Valley, MN
-September 2020 – June 2024
-- 3.6 GPA, Honors and Advanced Placement in Math, Science, Economics, and Computer Science<br>
+    EASTVIEW HIGH SCHOOL - Apple Valley, MN (September 2020 – June 2024) <br>
+3.6 GPA, Honors and Advanced Placement in Math, Science, Economics, and Computer Science<br><br>
+UNIVERSITY OF ST THOMAS – St. Paul, MN
+ (Started September 2024, Class of 2028)<br>
+ Link: 
+<a href="https://www.stthomas.edu/">St thomas</a><br>
+Major: Computer Science<br>
 
-- UNIVERSITY OF ST THOMAS – St. Paul, MN<br> 
-- Started September 2024, Class of 2028<br>
-- Major: Computer Science<br>
-
-    <div id="Link"><a href="https://www.stthomas.edu/">St thomas</a></div>
 </p>
 <h4>
     Accomplishments
 </h4>
 <p>
-    - Academic Letter Recipient, STEM Scholar,  AP Student - Eastview High School<br>
+    - Academic Letter Recipient, STEM Scholar, AP Student - Eastview High School<br>
     - Presidential Award - Falcon Ridge Middle School<br>
     - Dean’s List - University of St. Thomas<br>
     - Black Belt in Taekwondo<br>
@@ -80,7 +76,7 @@ September 2020 – June 2024
 </h4>
 <p>
     Life Time - Chanhassen, MN
-    June 2024 – Present
+    (June 2024 – Present)<br>
     - Intern - LT Technology with a focus on software engineering<br>
     - Created web interface for LifeSpa business partners to re-sync customer data with their account, which involved full stack programming<br>
     - Created a web page for a celebration of the team hitting 1 million digital subscribers<br>          
@@ -95,7 +91,7 @@ September 2020 – June 2024
     - Microsoft Word, Excel, PowerPoint<br>
     - Jira<br>              
 </p>
-
+</div>
 
 
 <script src="jquery.js"></script>

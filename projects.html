@@ -16,18 +16,14 @@
                 Home page
             </a>
             <a href="projects.html" onclick="selectProjectsTab()" id="ProjectsTab" class="cell large-auto">
-                My Projects
+                Projects
             </a>
             <a href="resume.html" onclick="selectResumeTab()" id="ResumeTab" class="cell large-auto">
-                My Resume
+                Resume
             </a>
             <a href="fun.html" onclick="selectFunTab()" id="FunTab" class="cell large-auto">
                 Fun Stuff
-            </a>           
-        </div>
-        
-        <div class="grid-x grid-padding-x">
-            <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+            </a>         
         </div>
     </div>
 </div>
@@ -36,33 +32,44 @@
 <!-- Minimum of 3 projects that you have worked on in other classes / internships
 Describe the purpose of each project and the work you did
 Include at least one photo for each project -->
-<h1>Projects</h1>
+<div id="ProjectsContent">
+<h1 id="ProjectsTitle">Projects</h1>
 
 <h3>
     LifeSpa Web Interface
 </h3>
-<p>
-    At my Life Time internship, I had a full stack project where I made a Web Interface for LifeSpa business partners. 
-    There were some members whose customerId became disassociated with their account, which prevented them
-    from seeing their LifeSpa appointents.
-    The interface allowed the business partners to re-sync members customerId with their LifeSpa account with the
-     click of a button and the members could then see their appointments. 
-</p>
+<div class="LifeTime1">
+    <p>
+        At my Life Time internship, I had a full stack project where I made a Web Interface for LifeSpa business partners. 
+        There were some members whose customerId became disassociated with their account, which prevented them
+        from seeing their LifeSpa appointents.
+        The interface allowed the business partners to re-sync members customerId with their LifeSpa account with the
+        click of a button and the members could then see their appointments.   
+    </p>
+    <img src="webInterface.jpg" id="WebInterface">
+</div>
 <h3>
     Congratulatory Screen
 </h3>
-<p>
-    As another project at the Life Time internship, I made an animated screen that represented the company reaching 1 million
-    digital subscribers. This included a loading bar being completed, confetti, and a congratulatory message
-</p>
+<div class="LifeTime2">
+    <p>
+        As another project at the Life Time internship, I made an animated screen that represented the company reaching 1 million
+        digital subscribers. This included a loading bar being completed, confetti, and a congratulatory message
+    </p>
+    <img src="congraulations.jpg" id="Congratulations">
+</div>
 <h3>
     Trivia Game
 </h3>
-<p>
-    In a computer science class in high school, I developed a mobile trivia game using MIT App Inventor. The game consisted of 
-    trivia questions that were asked and the user was given multiple choice answers. At the end of the game, the user's score is 
-    displayed as well as the answers they got correct. 
-</p>
+<div class="Trivia">
+    <p>
+        In a computer science class in high school, I developed a mobile trivia game using MIT App Inventor. The game consisted of 
+        trivia questions that were asked and the user was given multiple choice answers. At the end of the game, the user's score is 
+        displayed as well as the answers they got correct. <br>
+    </p>
+    <img src="question.jpg" id="Question">
+</div>
+</div>
 </html>
 <script src="jquery.js"></script>
 <script src="what-input.js"></script>

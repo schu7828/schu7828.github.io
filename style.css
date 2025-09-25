@@ -23,17 +23,70 @@
         color: inherit;
       }
 
-      
-#AboutMeBox {
-    border-color: black;
-    background-color: lightgrey;
-    width: 100%;              /* fill grid cell width */
-    height: 100%;             /* fill grid cell height */
-    text-align: center;       /* center text horizontally */
-    align-items: center;      /* center text vertically (if flex) */
+      .AboutMeBox {
+        border: 2px solid black;
+        display: flex;
+        gap: 20px;
+        padding: 15px; 
+        width: 72.5%;
+        text-align: left;
+        margin: auto;
+        justify-content: space-between;
+      }      
+#AboutMePic {
+    max-width: 500px;
 }
 #AboutMe1 {
     text-align: center;
+}
+#fun {
+    text-align: center;
+}
+.LifeTime1 {
+    border: 2px solid black;
+    display: flex;
+    gap: 20px;
+    padding: 15px;        
+}
+#WebInterface {
+    max-width: 500px;
+    height: fit-content;
+}
+.LifeTime2 {
+    border: 2px solid black;
+    display: flex;
+    gap: 20px;
+    padding: 15px;  
+}
+#Congratulations {
+    max-width: 500px;
+    height: fit-content;
+}
+.Trivia {
+    border: 2px solid black;
+    display: flex;
+    gap: 20px;
+    padding: 15px;  
+}
+#Question {
+    min-width: 500px;  
+    height: fit-content;
+}
+#ProjectsTitle {
+    text-align: center;
+}
+#ResumeBody {
+    border: 2px solid black;
+    width: 72.5%;        
+    margin: auto;   
+    text-align: left;      
+}
+#ResumeTitle {
+    text-align: center;
+}
+#ProjectsContent {
+    width: 72.5%;        
+    margin: auto;   
 }
       
       
