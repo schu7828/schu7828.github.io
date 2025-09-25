@@ -11,19 +11,19 @@
     <!-- main content within a `grid-container` -->
     <div class="grid-container">
         <!-- `grid-x` represents a row -->
-        <div class="grid-x grid-padding-x">
-            <div class="cell large-auto" style="background-color: #485c63;">
-                <div id="HomePageLink"><a href="index.html">Home Page</a></div>
-            </div>
-            <div class="cell large-auto" style="background-color: #ADD8E6;">
-                <div id="ProjectsLink"><a href="projects.html">My Projects</a></div>
-            </div>
-            <div class="cell large-auto" style="background-color: #90EE90;">
-                <div id="ResumeLink"><a href="resume.html">My Resume</a></div>
-            </div>
-            <div class="cell large-auto" style="background-color: #909eee;">
-                <div id="FunLink"><a href="fun.html">Fun Stuff</a></div>
-            </div>
+        <div class="grid-x grid-padding-x" >
+            <a href="index.html" onclick="selectHomeTab()" id="HomePageTab" class="cell large-auto">
+                Home page
+            </a>
+            <a href="projects.html" onclick="selectProjectsTab()" id="ProjectsTab" class="cell large-auto">
+                My Projects
+            </a>
+            <a href="resume.html" onclick="selectResumeTab()" id="ResumeTab" class="cell large-auto">
+                My Resume
+            </a>
+            <a href="fun.html" onclick="selectFunTab()" id="FunTab" class="cell large-auto">
+                Fun Stuff
+            </a>           
         </div>
         
         <div class="grid-x grid-padding-x">
@@ -101,6 +101,7 @@ September 2020 – June 2024
 <script src="jquery.js"></script>
 <script src="what-input.js"></script>
 <script src="foundation.js"></script>
+<script src="style.js"></script>
 <script type="application/javascript">
     $(document).foundation();
 </script>
