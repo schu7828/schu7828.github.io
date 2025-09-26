@@ -12,6 +12,7 @@
 }
   
 .cell.large-auto {
+    font-size: 1.5rem;
     border: 1px solid black;
     display: grid;
     align-items: center;
@@ -25,7 +26,6 @@
 
       .AboutMeBox {
         border: 2px solid black;
-        display: grid;
         align-items: center;  
         justify-content: center;
         gap: 20px;
@@ -37,11 +37,16 @@
     width: 72.5%;
     margin: auto;   
     text-align: left; 
+    align-items: center;
+}
+#AboutMePic {
+    margin: auto; 
 }
 #fun {
     text-align: center;
 }
 .LifeTime1 {
+    font-size: 1rem;
     background-color: white;
     border: 2px solid black;
     display: grid;
@@ -49,6 +54,7 @@
     padding: 15px;
 }
 #WebInterface {
+    font-size: 1rem;
     background-color: white;
     max-width: 500px;
     height: fit-content;
@@ -57,6 +63,7 @@
     display: block;
 }
 .LifeTime2 {
+    font-size: 1rem;
     background-color: white;
     border: 2px solid black;
     display: grid;
@@ -64,6 +71,7 @@
     padding: 15px;
 }
 .Trivia {
+    font-size: 1rem;
     background-color: white;
     border: 2px solid black;
     display: grid;
@@ -74,6 +82,7 @@
     text-align: center;
 }
 #ResumeBody {
+    font-size: 1rem;
     border: 2px solid black;
     display: grid;
     gap: 20px;
@@ -118,7 +127,7 @@
     gap: 15px;         
     margin: auto;     
   }
-  
+
   
   
   
