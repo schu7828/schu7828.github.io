@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="foundation.css">
     <link rel="stylesheet" href="style.css">
 </head>
+<body>
 <div class="off-canvas-content" data-off-canvas-content>
 	<!-- main content within a `grid-container` -->
 	<div class="grid-container">
@@ -16,28 +17,30 @@
 				Home page
 			</a>
 			<a href="projects.html" onclick="selectProjectsTab()" id="ProjectsTab" class="cell large-auto">
-				My Projects
+				Projects
 			</a>
 			<a href="resume.html" onclick="selectResumeTab()" id="ResumeTab" class="cell large-auto">
-				My Resume
+				Resume
 			</a>
 			<a href="fun.html" onclick="selectFunTab()" id="FunTab" class="cell large-auto">
 				Fun Stuff
-			</a>           
+			</a>        
 		</div>
 	</div>
 </div>
-<!-- Tell something interesting about yourself (e.g. hobbies, aspirations, your pets, etc.)
-Include media (images, videos, and/or links) -->
-<body>
-<div id="fun">
-	<h1>Fun Stuff</h1>
+	<h1 style="text-align: center;">Fun Stuff</h1>
+	<div id="FunStuffContent">
 		<p>
-			I enjoy to play basketball, lift, hang out with friends. I have also always enjoyed running and I ran track in high school.
+			I enjoy playing basketball, lifting, and hanging out with friends. I have also always enjoyed running and I ran track in high school.
+			I earned a black belt in Taekwondo when I was in fifth grade.
 		</p>
-	<img src="basketball.jpg">
+	<div id="ImageRow">
+		<img src="basketball.jpg">
+		<img src="track.jpg">
+		<img src="blackbelt.png">
+	</div>
+	</div>
 </body>
-</div>
 <script src="jquery.js"></script>
 <script src="what-input.js"></script>
 <script src="foundation.js"></script>

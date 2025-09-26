@@ -1,83 +1,85 @@
 #HomePageTab {
-    background-color: lightgrey;
+    background-color: darkgrey;
 }
 #ProjectsTab {
-    background-color: lightgrey;
+    background-color: darkgrey;
 }
 #ResumeTab {
-    background-color: lightgrey;
+    background-color: darkgrey;
 }
 #FunTab {
-    background-color: lightgrey;
+    background-color: darkgrey;
 }
+  
+.cell.large-auto {
+    border: 1px solid black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    background-color: darkgrey;
+  }
+  
 
-    .cell.large-auto {
-        border: 1px solid black;
-        display: flex;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        color: inherit;
-      }
 
       .AboutMeBox {
         border: 2px solid black;
-        display: flex;
+        display: grid;
+        align-items: center;  
+        justify-content: center;
         gap: 20px;
-        padding: 15px; 
-        width: 72.5%;
-        text-align: left;
-        margin: auto;
-        justify-content: space-between;
-      }      
-#AboutMePic {
-    max-width: 500px;
-}
-#AboutMe1 {
-    text-align: center;
+        padding: 15px;
+      }
+          
+#AboutMeContent {
+    background-color: white;
+    width: 72.5%;
+    margin: auto;   
+    text-align: left; 
 }
 #fun {
     text-align: center;
 }
 .LifeTime1 {
+    background-color: white;
     border: 2px solid black;
-    display: flex;
+    display: grid;
     gap: 20px;
-    padding: 15px;        
+    padding: 15px;
 }
 #WebInterface {
+    background-color: white;
     max-width: 500px;
     height: fit-content;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 .LifeTime2 {
+    background-color: white;
     border: 2px solid black;
-    display: flex;
+    display: grid;
     gap: 20px;
-    padding: 15px;  
-}
-#Congratulations {
-    max-width: 500px;
-    height: fit-content;
+    padding: 15px;
 }
 .Trivia {
+    background-color: white;
     border: 2px solid black;
-    display: flex;
+    display: grid;
     gap: 20px;
-    padding: 15px;  
-}
-#Question {
-    min-width: 500px;  
-    height: fit-content;
+    padding: 15px;
 }
 #ProjectsTitle {
     text-align: center;
 }
 #ResumeBody {
     border: 2px solid black;
-    width: 72.5%;        
+    display: grid;
+    gap: 20px;
+    padding: 15px;
+    background-color: white;
+    width: 72.5%;
     margin: auto;   
     text-align: left;      
 }
@@ -85,9 +87,47 @@
     text-align: center;
 }
 #ProjectsContent {
-    width: 72.5%;        
+    width: 72.5%;
     margin: auto;   
 }
+.ProjectContainer {
+    display: grid;
+  }
+  img {
+    width: 500px;
+    height: auto;
+    display: block;
+  }
+  body {
+    background-color: lightgrey;
+  }
+  #FunStuffContent {
+    border: 2px solid black;
+    display: grid;
+
+    gap: 20px;
+    padding: 15px;
+    background-color: white;
+    width: 72.5%;
+    margin: auto;   
+    text-align: left; 
+  }
+  #ImageRow {
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    gap: 15px;         
+    margin: auto;     
+  }
+  
+  
+  
+  
+  
+  
+
+  
+
+  
       
       
       
